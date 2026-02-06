@@ -32,11 +32,11 @@ The database for this project contains three related tables: **Customers**, **Pr
 
 ## 4. Entity Relationship Diagram (ERD)
 
-[ diagram](public/diagram.png)
+![diagram](public/diagram.png)
 
 ---
 
-## 5. Part A — SQL JOINs
+## 5. Part A - SQL JOINs
 
 ### INNER JOIN
 ```sql
@@ -46,7 +46,7 @@ INNER JOIN customers c ON s.customer_id = c.customer_id
 INNER JOIN products p ON s.product_id = p.product_id;
 ```
 
-[INNER JOIN](public/inner_join.png)
+![INNER JOIN](public/inner_join.png)
 
 ---
 
@@ -58,7 +58,7 @@ LEFT JOIN sales s ON c.customer_id = s.customer_id
 WHERE s.sales_id IS NULL;
 ```
 
-[left JOIN](public/left_join.png)
+![left JOIN](public/left_join.png)
 
 ---
 
@@ -70,7 +70,7 @@ RIGHT JOIN products p ON s.product_id = p.product_id
 WHERE s.sales_id IS NULL;
 ```
 
-[right JOIN](public/right_join.png)
+![right JOIN](public/right_join.png)
 
 ---
 
@@ -82,7 +82,7 @@ FULL OUTER JOIN sales s
 ON c.customer_id = s.customer_id;
 ```
 
-[full outer JOIN](public/full_outer_join.png)
+![full outer JOIN](public/full_outer_join.png)
 
 ---
 
@@ -95,11 +95,11 @@ ON a.region = b.region
 AND a.customer_id <> b.customer_id;
 ```
 
-[self JOIN](public/self_join.png)
+![self JOIN](public/self_join.png)
 
 ---
 
-## 6. Part B — Window Functions
+## 6. Part B - Window Functions
 
 ### Ranking Function
 ```sql
@@ -111,7 +111,7 @@ JOIN products p ON s.product_id = p.product_id
 GROUP BY p.name;
 ```
 
-[ranking function](public/ranking_function.png)
+![ranking function](public/rank_function.png)
 
 ---
 
@@ -123,7 +123,7 @@ SELECT sales_date,
 FROM sales;
 ```
 
-[aggregate function](public/aggregate_function.png)
+![aggregate function](public/aggregate_function.png)
 
 ---
 
@@ -135,7 +135,7 @@ SELECT sales_date,
 FROM sales;
 ```
 
-[navigation function](public/navigation_function.png)
+![navigation function](public/navigation_function.png)
 
 ---
 
@@ -147,7 +147,7 @@ FROM sales
 GROUP BY customer_id;
 ```
 
-[distribution function](public/distribution_function.png)
+![distribution function](public/distribution_function.png)
 
 ---
 
@@ -171,4 +171,4 @@ SQL Window Functions Documentation
 ---
 
 ## Integrity Statement
-“All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation.”
+All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation.
