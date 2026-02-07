@@ -1,11 +1,13 @@
 # SQL JOINs & Window Functions Project
-BEGIN
-    DBMS_OUTPUT.PUT_LINE('Course: INSY 8311 Database Development with PL/SQL' || CHR(10) ||
-                         'Student: Kajyojyi ntwari David' || CHR(10) ||
-                         'Group A' || CHR(10) ||
-                         'Instructor: Eric Maniraguha');
-END;
-/
+Course: INSY 8311 Database Development with PL/SQL
+
+Student: Kajyojyi ntwari David
+
+Group A
+
+Instructor: Eric Maniraguha
+
+
 
 
 ## 1. Problem Definition
