@@ -1,7 +1,9 @@
 # SQL JOINs & Window Functions Project
-Course: INSY 8311 Database Development with PL/SQL
+Course : INSY 8311 Database Development with PL/SQL
 
-Student: Kajyojyi ntwari David
+Student : Kajyojyi ntwari David 
+
+StudentId : 29294
 
 Group A
 
